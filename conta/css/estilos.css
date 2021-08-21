@@ -1,0 +1,187 @@
+body {
+  font-family: ubuntu, Open Sans, Arial, sans-serif;
+  font-size: 14px;
+  color: #666;
+  line-height: 2em;
+  font-weight: 500;
+}
+
+.content h1 {
+  text-align: center;
+  font-weight: bold;
+  padding: 0 20px 20px 20px;
+}
+
+.content p {
+  font-size: 18px;
+  text-align: center;
+}
+.top-barra {
+  height: 32px;
+  background-color: #005100;
+  color: #fff;
+}
+
+.logo {
+  width: 150px;
+  margin: 10px 0;
+}
+
+.top-navigation {
+  float: right;
+  padding-top: 35px;
+}
+
+.top-menu {
+  margin-bottom: 35px;
+}
+
+.top-menu li {
+  display: inline-block;
+  font-size: 14px;
+  padding-right: 22px;
+}
+
+.top-menu li a {
+  padding-bottom: 35px;
+  color: #000;
+}
+
+.contenedor {
+  width: 90%;
+  max-width: 1080px;
+  margin: auto;
+}
+
+.logo-contenedor {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.borde {
+  margin-top: 30px;
+  border-radius: 30px;
+  border-width: 5px;
+  border-style: ridge;
+  border-color: rgba(255, 255, 255, 0.24);
+  box-shadow: inset 0px 0px 55px 0px rgba(0, 0, 0, 0.24);
+}
+.m50 {
+  margin: 50px auto;
+}
+
+.logotxt {
+  font-size: 100px;
+  font-weight: 500;
+  text-align: center;
+  color: rgb(29, 161, 29);
+}
+
+.slogan {
+  color: rgb(0, 0, 0);
+  font-size: 120 px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.ficha-servicios {
+  height: 500px;
+  width: 25%;
+}
+
+.ficha-contenido {
+  max-width: 550px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  height: 500px;
+}
+
+.ficha-img {
+  margin-top: 35px;
+  margin-bottom: 35px;
+  font-size: 70px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.ficha-img i {
+  border: 1px solid #201d1d9d;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.ficha-txt {
+  margin-top: 15px;
+  /* font-family: "ubuntu"; */
+  padding: 10px;
+}
+
+.ficha-txt h2 {
+  text-align: center;
+  font-size: 20px;
+}
+
+.ficha-txt h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.ficha-txt ul {
+  list-style: disc;
+  margin-left: 30px;
+}
+
+.fondo {
+  background-image: radial-gradient(
+      circle at top left,
+      rgba(0, 79, 140, 0.34) 0%,
+      rgba(0, 56, 94, 0.75) 50%
+    ),
+    url("../../img/factory-1221898_1920.jpg");
+  background-size: 100%;
+  /*   background: radial-gradient(
+    circle at top left,
+    rgba(0, 79, 140, 0.34) 0%,
+    rgba(0, 56, 94, 0.75) 50%
+  );
+ */
+  position: relative;
+}
+
+.frente-imagen {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSI3NTBweCIgdmlld0JveD0iMCAwIDEyODAgMTQwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9InJnYmEoMTIsMTEzLDE5NSwwLjExKSI+PHBhdGggZD0iTTAgNTEuNzZjMzYuMjEtMi4yNSA3Ny41Ny0zLjU4IDEyNi40Mi0zLjU4IDMyMCAwIDMyMCA1NyA2NDAgNTcgMjcxLjE1IDAgMzEyLjU4LTQwLjkxIDUxMy41OC01My40VjBIMHoiIGZpbGwtb3BhY2l0eT0iLjMiLz48cGF0aCBkPSJNMCAyNC4zMWM0My40Ni01LjY5IDk0LjU2LTkuMjUgMTU4LjQyLTkuMjUgMzIwIDAgMzIwIDg5LjI0IDY0MCA4OS4yNCAyNTYuMTMgMCAzMDcuMjgtNTcuMTYgNDgxLjU4LTgwVjBIMHoiIGZpbGwtb3BhY2l0eT0iLjUiLz48cGF0aCBkPSJNMCAwdjMuNEMyOC4yIDEuNiA1OS40LjU5IDk0LjQyLjU5YzMyMCAwIDMyMCA4NC4zIDY0MCA4NC4zIDI4NSAwIDMxNi4xNy02Ni44NSA1NDUuNTgtODEuNDlWMHoiLz48L2c+PC9zdmc+);
+  background-size: 100% 650px;
+  top: 0;
+  height: 600px;
+  z-index: 1;
+  background-color: transparent;
+  z-index: 10;
+}
+
+.col4 {
+  width: 24.5%;
+  padding: 10px;
+}
+
+.content {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.textosello {
+  margin-top: 7px;
+  color: #fff;
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.sello {
+  margin: 10px;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 600;
+}

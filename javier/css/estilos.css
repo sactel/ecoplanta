@@ -1,0 +1,101 @@
+.top-barra {
+  height: 32px;
+  background-color: #005100;
+  color: #fff;
+}
+
+.logo {
+  width: 150px;
+  margin: 10px 0;
+}
+
+.top-navigation {
+  float: right;
+  padding-top: 35px;
+}
+
+.top-menu {
+  margin-bottom: 35px;
+}
+
+.top-menu li {
+  display: inline-block;
+  font-size: 14px;
+  padding-right: 22px;
+}
+
+.top-menu li a {
+  padding-bottom: 35px;
+  color: #000;
+}
+
+.contenedor {
+  width: 90%;
+  max-width: 1080px;
+  margin: auto;
+}
+
+.logo-contenedor {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.bn-row2 .bn-row {
+  margin-top: 62px !important;
+  margin-right: auto !important;
+  margin-bottom: 30px !important;
+  margin-left: auto !important;
+  padding-top: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+}
+
+.br30 {
+  border-radius: 30px;
+  border-width: 5px;
+  border-style: ridge;
+  border-color: rgba(255, 255, 255, 0.24);
+  box-shadow: inset 0px 0px 55px 0px rgba(0, 0, 0, 0.24);
+}
+.m50 {
+  margin: 50px auto;
+}
+
+.et_pb_row {
+  width: 80%;
+  max-width: 1080px;
+  position: relative;
+}
+
+.logotxt {
+  font-size: 100px;
+  font-weight: 500;
+  text-align: center;
+  color: rgb(29, 161, 29);
+}
+
+.slogan {
+  color: rgb(0, 0, 0);
+  font-size: 120 px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.ficha-servicios {
+  height: 600px;
+  width: 25%;
+}
+
+.ficha-contenido {
+  max-width: 550px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  height: 600px;
+}
+
+.ficha-img {
+  margin-top: 35px;
+}
