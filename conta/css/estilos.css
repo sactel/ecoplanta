@@ -166,6 +166,17 @@ body {
   padding: 10px;
 }
 
+.col3 {
+  width: 33%;
+}
+
+.col2 {
+  width: 49%;
+}
+.col1 {
+  width: 99%;
+}
+
 .content {
   width: 80%;
   margin: 0 auto;
@@ -184,4 +195,32 @@ body {
   color: #ffffff;
   font-size: 30px;
   font-weight: 600;
+}
+
+.text-sup {
+  font-size: 25px;
+  color: #000;
+}
+
+@media (max-width: 411px) {
+  .logo {
+    width: 120px;
+    margin: 5px 0;
+  }
+  .logotxt {
+    font-size: 40px;
+  }
+  .slogan {
+    font-size: 25px;
+  }
+  .text-sup {
+    font-size: 20px;
+  }
+
+  .col4 {
+    width: 99%;
+  }
+
+  .content h1 {
+  }
 }
